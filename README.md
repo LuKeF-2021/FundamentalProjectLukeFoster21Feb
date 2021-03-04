@@ -18,8 +18,7 @@ the MVP for this project was as follows:
 * Database hosted on GCP SQL server.
 * Risk assessment relevant to the project.
 * ERD (Entity Relationship Diagram).
-* Front-End webpage on localhost for users to enter data into db.
+* Front-End webpage on localhost for users to enter data into db.  
 <br>
-### Why I chose a Champion database  
-
-### Initial design plans  
+<br>
+### Why I chose a champion database  
