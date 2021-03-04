@@ -30,3 +30,10 @@ League of Legends, read the contents of the champions listed in the table, updat
 changed about them, and also delete the record of a champion requested by the user.  
 <br>
 <h3>General approach to project</h3>
+To make the front end of the application HTML, CSS and JavaScript were needed. The back end or 'Business Layer' of the application  
+leveraged Java with SpringBoot, and finally the database was hosted on GCP (Google Cloud Platform). While extra functionality can  
+be interesting and appealing to the user, to ensure a successful project was submitted the specifications in the MVP needed to be  
+focused on first and foremost. To seperate the essential from the 'would be nice to have', a MOSCOW analysis was incorporated as  
+stated below:  
+<br>
+Must have:
