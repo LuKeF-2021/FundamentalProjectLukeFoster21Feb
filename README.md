@@ -19,3 +19,7 @@ the MVP for this project was as follows:
 * Risk assessment relevant to the project.
 * ERD (Entity Relationship Diagram).
 * Front-End webpage on localhost for users to enter data into db.
+<br>
+### Why I chose a Champion database  
+
+### Initial design plans  
