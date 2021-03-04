@@ -37,20 +37,24 @@ focused on first and foremost. To seperate the essential from the 'would be nice
 stated below:  
 <br>
 <br>
+
 Must have:  
 * One DB table with CRUD functionality: Add, Read, Update, Delete Champions. Hosted on GCP.
 * Jira board with epics, user stories and tasks.
 * Evidence of testing to some degree within the application back-end.
 * Functioning front-end webpage(s) that interact with the back-end and DB.
 * Documentation e.g. Risk Assessment.  
+
 Should have:  
 * Home Page with form for input.  
+
 Could have:  
 * Seperate pages for Create, Read, Update and Delete Forms.
 * Visual representation of table contents on webpage (e.g. html table)
 * Custom queries that the user can filter champions by, such as cost, release year.
 * Some Level of Styling and formatting done to the webpage so it's not as bland.
 * Second table that keeps track of champions on sale, and relates back to the main table.  
+
 Wont have:  
 * Professional level webpage design.  
 <br>
