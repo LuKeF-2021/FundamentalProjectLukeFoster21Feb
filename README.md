@@ -60,3 +60,4 @@ Wont have:
 <br>
 Further into this document it will be clear that some of the functionality outside of the 'must have' section was implemented.  
 However, by setting expectations early about what to focus on, the MVP was completed first and extra features added afterwards.  
+<h3>Using Jira to visualise tasks</h3>
