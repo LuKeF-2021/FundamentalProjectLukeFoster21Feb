@@ -120,6 +120,13 @@ Other tools used during the development of this application that haven't been di
 helpful when making experimental changes to my code, each time my codebase is working as intended and has no errors,  
 a commit was pushed to GitHub. If any of my changes did not work as intended or caused issues, code could be rolled back  
 to a stable point to continue working on.</li>
-* Spring H2 database - 
+<li>Spring H2 database - This component of Spring was leveraged during development, a localhost version of the application  
+database could be spun up while in use and spun down when the application stopped. With just a few lines of code in an  
+application properties file, this functionality was added and enabled quick user testing that code updates were working.</li>
+<li>Postman - Postman was used before the application had a frontend created. As the Business Layer of the application was  
+produced first, Postman acted as a mock Front-End to test POST,GET,PUT and DELETE http requests to the built Back-End.  
+When the Front-End had been coded and styled, the relevant Fetch requests could be coded using JavaScript and they were  
+already verified to be working by Postman prior to this stage.</li>
+<li>Maven & Mockito - </li>
 <h3>Future Improvements</h3>  
 
