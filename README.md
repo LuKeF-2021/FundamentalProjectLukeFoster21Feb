@@ -65,3 +65,19 @@ However, by setting expectations early about what to focus on, the MVP was compl
 
 <h3>Using Jira to visualise tasks</h3>  
 
+<h3>Database Table Visualised</h3>  
+
+<h3>Workflow of Application</h3>  
+
+<h3>Front-End</h3>  
+
+<h3>Back-End</h3>  
+
+<h3>Testing</h3>  
+<h4>Integration Testing</h4>  
+<h4>Unit Testing</h4>
+
+<h3>Tools Used</h3>  
+
+<h3>Future Improvements</h3>  
+
