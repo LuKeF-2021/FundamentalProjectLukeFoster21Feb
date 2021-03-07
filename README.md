@@ -86,7 +86,8 @@ To visualise the progress of the application, and have a reference for completed
 a Jira Kanban board was used to store epics, user stories and tasks. Epics are Large Parts of the code base that  
 provide a lot of functionality that is broken down into User Stories and Tasks associated with the Epic. Below  
 is a screenshot of the Jira Board for the project (also the Board is linked at the top of this document):  
-![image](https://user-images.githubusercontent.com/78487781/110254179-f9027d80-7f85-11eb-9740-bacf459b879e.png)
+<br>
+[image](https://user-images.githubusercontent.com/78487781/110254179-f9027d80-7f85-11eb-9740-bacf459b879e.png)
 
 <h3>Database Table Visualised</h3>  
 
