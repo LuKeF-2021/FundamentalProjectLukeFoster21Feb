@@ -88,6 +88,14 @@ provide a lot of functionality that is broken down into User Stories and Tasks a
 is a screenshot of the Jira Board for the project (also the Board is linked at the top of this document):  
 <br>
 [Jira Board Image](https://user-images.githubusercontent.com/78487781/110254179-f9027d80-7f85-11eb-9740-bacf459b879e.png)
+<br>
+As shown there are various Epics, Stories and tasks displayed on the board. Jira also allows developers to further manage their  
+tasks by splitting them into 'Sprints', these sprints are all the tasks you or your team are going to complete in the time  
+scale specified upon creating the Sprint. This project was mainly seperated out into sprints based off what layer was being  
+worked on, Front-End grouped together, Database etc.  
+Below is a screenshot demonstrating a Sprint being used in this project:  
+[Jira Sprint](https://user-images.githubusercontent.com/78487781/110254416-f6ecee80-7f86-11eb-82bc-da790dcc68fa.png)
+
 
 <h3>Database Table Visualised</h3>  
 
