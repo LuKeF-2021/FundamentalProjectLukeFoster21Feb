@@ -127,6 +127,11 @@ application properties file, this functionality was added and enabled quick user
 produced first, Postman acted as a mock Front-End to test POST,GET,PUT and DELETE http requests to the built Back-End.  
 When the Front-End had been coded and styled, the relevant Fetch requests could be coded using JavaScript and they were  
 already verified to be working by Postman prior to this stage.</li>
-<li>Maven & Mockito - </li>
+<li>Maven & Mockito - Both of these tools were used within the unit testing of the application. Creating the project as a  
+Maven build meant that versions could be made easily (version control) and that dependancies like JUnit could be imported  
+to assist with unit testing. Mockito Allows a developer to make MockBeans that imitate how the regular Bean would function,  
+however it creates an entity of its own to store this away from your actual application code. Mocking the service and repo  
+means that those layers are not impacted by tests.</li>
+<li>Spring - </li>
 <h3>Future Improvements</h3>  
 
