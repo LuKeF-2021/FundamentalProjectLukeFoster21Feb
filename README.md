@@ -87,7 +87,7 @@ a Jira Kanban board was used to store epics, user stories and tasks. Epics are L
 provide a lot of functionality that is broken down into User Stories and Tasks associated with the Epic. Below  
 is a screenshot of the Jira Board for the project (also the Board is linked at the top of this document):  
 <br>
-[image](https://user-images.githubusercontent.com/78487781/110254179-f9027d80-7f85-11eb-9740-bacf459b879e.png)
+[Jira Board Image](https://user-images.githubusercontent.com/78487781/110254179-f9027d80-7f85-11eb-9740-bacf459b879e.png)
 
 <h3>Database Table Visualised</h3>  
 
