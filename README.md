@@ -117,6 +117,13 @@ The 'Show champ with ID' button fulfills the Read functionality of the MVP, the 
 were included for a better user experience and to prove understanding of the code written beyond the scope of the MVP.  
 Below is the page for this:  
 <img src="https://user-images.githubusercontent.com/78487781/110259278-c0bb6900-7f9e-11eb-827a-bcc327af1b5c.png">
+<br>
+Next up is the 'Update Champion' page, where the user inputs the new record for an existing champion. To enhance  
+readability the full champions table is loaded upon the webpage loading, making it easier to find the champion and  
+edit what is needed. Usually an updated entry will have one or two changes, such as cost change or 'on sale' status  
+changing. So the user can see all the information they need to re-enter. This page is below:  
+<img src="https://user-images.githubusercontent.com/78487781/110259486-c6657e80-7f9f-11eb-9cd7-ae3adde7b40b.png">
+<br>
 
 
 <h3>Back-End</h3>  
