@@ -95,7 +95,7 @@ scale specified upon creating the Sprint. This project was mainly seperated out 
 worked on, Front-End grouped together, Database etc.  
 Below is a screenshot demonstrating a Sprint being used in this project:  
 <br>
-[Jira Sprint](https://user-images.githubusercontent.com/78487781/110254416-f6ecee80-7f86-11eb-82bc-da790dcc68fa.png)
+<img src="https://user-images.githubusercontent.com/78487781/110254416-f6ecee80-7f86-11eb-82bc-da790dcc68fa.png">
 <br>
 <h3>Database Table Visualised</h3>  
 
