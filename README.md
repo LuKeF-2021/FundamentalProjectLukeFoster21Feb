@@ -99,9 +99,13 @@ Below is a screenshot demonstrating a Sprint being used in this project:
 <br>
 <h3>Database Table Visualised</h3>  
 <img src="https://user-images.githubusercontent.com/78487781/110254958-50561d00-7f89-11eb-97d1-017a103f347b.png">
-
+<br>
+As shown above, this application will have one table only called 'Champions'. This will store various information about  
+each League of Legends champion a user inputs. The application will make use of these various fields to create custom  
+queries that filter returned fields by Cost, Roles etc. thus allowing the end user to make an informed decision on  
+who they can play in a certain role, or which champions they do not own and might want to purchase in the future.  
 <h3>Workflow of Application</h3>  
-discuss all layers, how they interact, the methods in each layer, demonstrate POST GET DELETE PUT workflow
+
 <h3>Front-End</h3>  
 
 <h3>Back-End</h3>  
