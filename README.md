@@ -8,7 +8,7 @@ Links to all resources can be found below:
 [GitHub-BackEnd](https://github.com/LuKeF-2021/FundamentalProjectLukeFoster21Feb)  
 [GitHub-FrontEnd](https://github.com/LuKeF-2021/FundamentalProject21FebFrontEnd)  
 [Jira Board](https://lukef.atlassian.net/secure/RapidBoard.jspa?rapidView=1&projectKey=FPQA&selectedIssue=FPQA-1)  
-Risk Assessment (link when finished)  
+[Risk Assessment](https://github.com/LuKeF-2021/FundamentalProjectLukeFoster21Feb/blob/main/Risk%20Assessment%20Luke%20Foster%20Fundamentals%20Project%2021Feb.docx)  
 <br>
 <br>
 ### Project requirements  
