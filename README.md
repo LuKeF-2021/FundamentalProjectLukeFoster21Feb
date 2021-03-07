@@ -69,6 +69,15 @@ Within the five week duration for this  project, no illnesses have had to be acc
 it has ensured the project has remained on schedule and that all relevant information on how to build an application was gained via  
 teams tutoring.  
 <br>
+As discussed in the risk assessment, the project would not be creating or interacting with any sensitive information. This has remained  
+true throughtout the project, and the final solution mitigates the lack of extra security the HTTP Protocol misses out on compared to  
+it's HTTPS counterpart.  
+<br>
+The risk that was encountered during the build process of this project was invalid data being passed into the backend via user input.  
+While developing the application even I as the developer sometimes left fields empty in a hurry, making it very understandable that  
+an unfamiliar user might also fall victim to this. To combat this problem if statements and various logic was implemented into the  
+JavaScript codebase to find these issues and alert the user, and only sending the completed form contents via a POST request after  
+the input had been verified. This will be highlighted and discussed more in the 'Front-End' section of this readme later on.  
 <h3>Using Jira to visualise tasks</h3>  
 
 <h3>Database Table Visualised</h3>  
