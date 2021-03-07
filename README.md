@@ -124,8 +124,10 @@ edit what is needed. Usually an updated entry will have one or two changes, such
 changing. So the user can see all the information they need to re-enter. This page is below:  
 <img src="https://user-images.githubusercontent.com/78487781/110259486-c6657e80-7f9f-11eb-9cd7-ae3adde7b40b.png">
 <br>
-
-
+Finally, the 'Delete Champion' page lets a user delete a champion record by ID (MVP requirement) or by name. Again,  
+the user has the whole table preloaded and visible upon page load to help them see what records they want to delete  
+easier. The page looks like this:  
+<img src="https://user-images.githubusercontent.com/78487781/110259572-3a078b80-7fa0-11eb-8187-910b9a7116b0.png">
 <h3>Back-End</h3>  
 
 <h3>Testing</h3>  
