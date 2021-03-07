@@ -98,6 +98,7 @@ Below is a screenshot demonstrating a Sprint being used in this project:
 <img src="https://user-images.githubusercontent.com/78487781/110254416-f6ecee80-7f86-11eb-82bc-da790dcc68fa.png">
 <br>
 <h3>Database Table Visualised</h3>  
+<img src="https://user-images.githubusercontent.com/78487781/110254958-50561d00-7f89-11eb-97d1-017a103f347b.png>
 
 <h3>Workflow of Application</h3>  
 discuss all layers, how they interact, the methods in each layer, demonstrate POST GET DELETE PUT workflow
