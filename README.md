@@ -107,6 +107,10 @@ who they can play in a certain role, or which champions they do not own and migh
 <h3>Workflow of Application</h3>  
 
 <h3>Front-End</h3>  
+The Front-End of the application was laid out with a webpage for each of the CRUD functions, with a nav bar to let the  
+user access each of them. The 'Create Champion' page simply provides a form for the user to imput all necessary fields,  
+The screenshot below shows the layout and the validation checks triggering properly:  
+<img src="https://user-images.githubusercontent.com/78487781/110259122-01ff4900-7f9e-11eb-8c21-513da86b2d40.png">
 
 <h3>Back-End</h3>  
 
