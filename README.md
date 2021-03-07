@@ -82,11 +82,16 @@ an unfamiliar user might also fall victim to this. To combat this problem if sta
 JavaScript codebase to find these issues and alert the user, and only sending the completed form contents via a POST request after  
 the input had been verified. This will be highlighted and discussed more in the 'Front-End' section of this readme later on.  
 <h3>Using Jira to visualise tasks</h3>  
+To visualise the progress of the application, and have a reference for completed, in progress, and outstanding tasks  
+a Jira Kanban board was used to store epics, user stories and tasks. Epics are Large Parts of the code base that  
+provide a lot of functionality that is broken down into User Stories and Tasks associated with the Epic. Below  
+is a screenshot of the Jira Board for the project (also the Board is linked at the top of this document):  
+![image](https://user-images.githubusercontent.com/78487781/110254179-f9027d80-7f85-11eb-9740-bacf459b879e.png)
 
 <h3>Database Table Visualised</h3>  
 
 <h3>Workflow of Application</h3>  
-
+discuss all layers, how they interact, the methods in each layer, demonstrate POST GET DELETE PUT workflow
 <h3>Front-End</h3>  
 
 <h3>Back-End</h3>  
