@@ -5,7 +5,8 @@ This project was a CRUD (Create,Read,Update,Delete) application due by end of We
 <br>
 <br>
 Links to all resources can be found below:  
-[GitHub](https://github.com/LuKeF-2021/FundamentalProjectLukeFoster21Feb)  
+[GitHub-BackEnd](https://github.com/LuKeF-2021/FundamentalProjectLukeFoster21Feb)  
+[GitHub-FrontEnd(https://github.com/LuKeF-2021/FundamentalProject21FebFrontEnd)  
 [Jira Board](https://lukef.atlassian.net/secure/RapidBoard.jspa?rapidView=1&projectKey=FPQA&selectedIssue=FPQA-1)  
 Risk Assessment (link when finished)  
 <br>
