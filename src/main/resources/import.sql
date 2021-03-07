@@ -1,0 +1,8 @@
+INSERT INTO champion (champ_name, champ_cost, champ_class, champ_roles, champ_release_year, champ_owned, champ_on_sale) VALUES ('vayne', 4800, 'marksman', 'adc', '2013', 'true', 'false');
+INSERT INTO champion (champ_name, champ_cost, champ_class, champ_roles, champ_release_year, champ_owned, champ_on_sale) VALUES ('dr. mundo', 450, 'tank', 'top, jungle', '2010', 'true', 'true');
+INSERT INTO champion (champ_name, champ_cost, champ_class, champ_roles, champ_release_year, champ_owned, champ_on_sale) VALUES ('ahri', 4800, 'mage', 'mid', '2014', 'false', 'false');
+INSERT INTO champion (champ_name, champ_cost, champ_class, champ_roles, champ_release_year, champ_owned, champ_on_sale) VALUES ('cassiopeia', 4800, 'mage', 'mid', '2011', 'true', 'false');
+INSERT INTO champion (champ_name, champ_cost, champ_class, champ_roles, champ_release_year, champ_owned, champ_on_sale) VALUES ('kayn', 6300, 'ad fighter', 'jungle', '2017', 'true', 'false');
+INSERT INTO champion (champ_name, champ_cost, champ_class, champ_roles, champ_release_year, champ_owned, champ_on_sale) VALUES ('lucian', 4800, 'marksman', 'mid, adc', '2013', 'true', 'true');
+INSERT INTO champion (champ_name, champ_cost, champ_class, champ_roles, champ_release_year, champ_owned, champ_on_sale) VALUES ('lux', 3150, 'mage', 'mid', '2009', 'false', 'false');
+INSERT INTO champion (champ_name, champ_cost, champ_class, champ_roles, champ_release_year, champ_owned, champ_on_sale) VALUES ('syndra', 4800, 'mage', 'mid', '2011', 'true', 'false');

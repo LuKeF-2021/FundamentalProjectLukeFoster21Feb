@@ -5,6 +5,7 @@ import java.util.List;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
+import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.DeleteMapping;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
@@ -17,6 +18,7 @@ import org.springframework.web.bind.annotation.RestController;
 import com.qa.fundamentalProject.persistence.domain.Champion;
 import com.qa.fundamentalProject.service.ChampionService;
 
+@CrossOrigin
 @RestController
 @RequestMapping("/champions")
 public class ChampionController {
@@ -38,7 +40,7 @@ public class ChampionController {
 	}
 
 	// readById
-	@GetMapping("/read/{id}")
+	@GetMapping("/read/champById/{id}")
 	public ResponseEntity<Champion> readById(@PathVariable Long id) {
 		Champion returnedObject = this.service.readById(id);
 		return ResponseEntity.ok(returnedObject);
@@ -59,7 +61,7 @@ public class ChampionController {
 	}
 
 	// updateByChampName
-	@PutMapping("/update/{champName}")
+	@PutMapping("/update/byName/{champName}")
 	public ResponseEntity<Champion> updateByChampName(@PathVariable String champName, @RequestBody Champion champion) {
 		Champion updatedObject = this.service.updateByChampName(champName, champion);
 		return new ResponseEntity<>(updatedObject, HttpStatus.ACCEPTED);
@@ -69,6 +71,17 @@ public class ChampionController {
 	@DeleteMapping("/delete/{id}")
 	public ResponseEntity<Champion> deleteById(@PathVariable Long id) {
 		if (this.service.deleteById(id)) {
+			return new ResponseEntity<>(HttpStatus.NO_CONTENT);
+		} else {
+			return new ResponseEntity<>(HttpStatus.INTERNAL_SERVER_ERROR);
+
+		}
+	}
+
+	// deleteByName
+	@DeleteMapping("/delete/byChamp/{champName}")
+	public ResponseEntity<Champion> deleteByChampName(@PathVariable String champName) {
+		if (this.service.ChampRemove(champName)) {
 			return new ResponseEntity<>(HttpStatus.NO_CONTENT);
 		} else {
 			return new ResponseEntity<>(HttpStatus.INTERNAL_SERVER_ERROR);

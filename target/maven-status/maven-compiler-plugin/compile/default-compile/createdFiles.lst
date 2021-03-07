@@ -1,0 +1,6 @@
+com\qa\fundamentalProject\persistence\domain\Champion.class
+com\qa\fundamentalProject\rest\controller\ChampionController.class
+com\qa\fundamentalProject\CrudProjectFinalApplication.class
+com\qa\fundamentalProject\persistence\repository\ChampionRepository.class
+com\qa\fundamentalProject\exception\ChampionNotFoundException.class
+com\qa\fundamentalProject\service\ChampionService.class
