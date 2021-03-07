@@ -65,13 +65,16 @@ However, by setting expectations early about what to focus on, the MVP was compl
 Of the Four risks highlighted in the risk assessment, only one of them needed to be resolved. As this project has not been demonstrated  
 yet, there have been no issues with my database being offline during development and testing.  
 <br>
+<br>
 Within the five week duration for this  project, no illnesses have had to be accounted for. While this is out of a developers control,  
 it has ensured the project has remained on schedule and that all relevant information on how to build an application was gained via  
 teams tutoring.  
 <br>
+<br>
 As discussed in the risk assessment, the project would not be creating or interacting with any sensitive information. This has remained  
 true throughtout the project, and the final solution mitigates the lack of extra security the HTTP Protocol misses out on compared to  
 it's HTTPS counterpart.  
+<br>
 <br>
 The risk that was encountered during the build process of this project was invalid data being passed into the backend via user input.  
 While developing the application even I as the developer sometimes left fields empty in a hurry, making it very understandable that  
