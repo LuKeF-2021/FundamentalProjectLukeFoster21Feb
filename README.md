@@ -64,9 +64,11 @@ However, by setting expectations early about what to focus on, the MVP was compl
 <h3>Analysis of Risk Assessment after application has been built</h3>  
 Of the Four risks highlighted in the risk assessment, only one of them needed to be resolved. As this project has not been demonstrated  
 yet, there have been no issues with my database being offline during development and testing.  
+<br>
 Within the five week duration for this  project, no illnesses have had to be accounted for. While this is out of a developers control,  
 it has ensured the project has remained on schedule and that all relevant information on how to build an application was gained via  
-teams tutoring.
+teams tutoring.  
+<br>
 <h3>Using Jira to visualise tasks</h3>  
 
 <h3>Database Table Visualised</h3>  
