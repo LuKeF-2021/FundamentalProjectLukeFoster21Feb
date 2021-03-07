@@ -111,6 +111,13 @@ The Front-End of the application was laid out with a webpage for each of the CRU
 user access each of them. The 'Create Champion' page simply provides a form for the user to imput all necessary fields,  
 The screenshot below shows the layout and the validation checks triggering properly:  
 <img src="https://user-images.githubusercontent.com/78487781/110259122-01ff4900-7f9e-11eb-8c21-513da86b2d40.png">
+<br>
+The 'Read Champion' page lets the user filter returned entries of champions that match the criteria the user wants.  
+The 'Show champ with ID' button fulfills the Read functionality of the MVP, the other filters are custom queries that  
+were included for a better user experience and to prove understanding of the code written beyond the scope of the MVP.  
+Below is the page for this:  
+<img src="https://user-images.githubusercontent.com/78487781/110259278-c0bb6900-7f9e-11eb-827a-bcc327af1b5c.png">
+
 
 <h3>Back-End</h3>  
 
