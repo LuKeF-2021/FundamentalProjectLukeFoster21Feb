@@ -116,10 +116,10 @@ who they can play in a certain role, or which champions they do not own and migh
 
 <h3>Tools Used</h3>  
 Other tools used during the development of this application that haven't been discussed are as follows:  
-* Git - has been used to push up 'Commits' of code changes, whether that be Front-End or Back-End code. This has been very  
+<li>Git - has been used to push up 'Commits' of code changes, whether that be Front-End or Back-End code. This has been very  
 helpful when making experimental changes to my code, each time my codebase is working as intended and has no errors,  
 a commit was pushed to GitHub. If any of my changes did not work as intended or caused issues, code could be rolled back  
-to a stable point to continue working on.
+to a stable point to continue working on.</li>
 * Spring H2 database - 
 <h3>Future Improvements</h3>  
 
