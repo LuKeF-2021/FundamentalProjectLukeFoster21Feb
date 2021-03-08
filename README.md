@@ -177,6 +177,13 @@ and how it integrates with other classes. This is where integration testing and 
 testing methods were implemented to check the logic of the Back-End within the application, these will be expanded  
 upon seperately below.  
 <h4>Integration Testing</h4>  
+Integration testing makes use of the @Test annotations the Spring framework provides. This was implemented on the  
+Controller class of the code. A mock Controller class was set up in the src/test/java folder. Here are some of the  
+tests executed and the test coverage achieved:  
+<img src="https://user-images.githubusercontent.com/78487781/110302089-c5a90880-7ff0-11eb-8b37-3c9de5a85f13.png">
+<img src="https://user-images.githubusercontent.com/78487781/110302162-d8234200-7ff0-11eb-8239-ff03bb7fb493.png">
+
+
 <h4>Unit Testing</h4>
 
 <h3>Tools Used</h3>  
