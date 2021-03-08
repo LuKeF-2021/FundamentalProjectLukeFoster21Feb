@@ -129,7 +129,20 @@ the user has the whole table preloaded and visible upon page load to help them s
 easier. The page looks like this:  
 <img src="https://user-images.githubusercontent.com/78487781/110259572-3a078b80-7fa0-11eb-8187-910b9a7116b0.png">
 <h3>Back-End</h3>  
-
+The Back-End or 'Business Layer' is hosted on localhost for this project, it consists of four layers, these are:  
+<li>Controller Layer - this is the first point of contact that the webpage interacts with, it is responsible  
+for converting JSON objects from the Front-End into a Java representation that the Back-End can interpret.  
+Additionally, the GET, POST, PUT and DELETE mappings are defined here which helps the fetch requests find the  
+correct endpoints in the service layer. The Spring Framework largely helped with setting the functionality up  
+here, as it had various annotations such as @GetMapping and @PathVariable which helped establish the effective  
+communication between the webpage and the application.</li>
+<li>Service Layer - The flow of the data then moves onto the service layer, here the service defines what any  
+mapping endpoints actually need to execute. It does this by communicating with the repository which leverages  
+the JPA repo, this import contains commonly used CRUD methods, which was then extended in this project with  
+custom queries defined for project specific functionality. The service runs the logic contained within the  
+requested endpoint.</li>
+<li></li>
+<li></li>
 <h3>Testing</h3>  
 <h4>Integration Testing</h4>  
 <h4>Unit Testing</h4>
