@@ -213,7 +213,10 @@ Let's break down what the 'testCreateChampion' unit test is doing here:
 <br>
 if the above is true, then this test passes.
 <br>
-
+Unfortunately only the CRUD MVP classes were unit tested on the service class. This accounts for the lower 43.2% coverage.  
+<br>
+The custom queries were intended to be within scope of testing here, however I could not get them to work as intended,  
+and commented them out in my eclipse code base.
 
 <h3>Tools Used</h3>  
 Other tools used during the development of this application that haven't been discussed are as follows:  
