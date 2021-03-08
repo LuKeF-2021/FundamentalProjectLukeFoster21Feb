@@ -117,6 +117,13 @@ POST:
 <img src="https://user-images.githubusercontent.com/78487781/110298384-74971580-7fec-11eb-964c-18a24d7ad460.png">
 <br>
 GET:  
+<img src="https://user-images.githubusercontent.com/78487781/110299303-6990b500-7fed-11eb-9a0a-2eac7454dbc3.png">
+<br>
+PUT:  
+<img src="https://user-images.githubusercontent.com/78487781/110299606-cab88880-7fed-11eb-9d3f-8227052fa331.png">
+<br>
+DELETE:  
+<img src="https://user-images.githubusercontent.com/78487781/110300061-5a5e3700-7fee-11eb-87e5-48817c58d0a8.png">
 
 <h3>Front-End</h3>  
 The Front-End of the application was laid out with a webpage for each of the CRUD functions, with a nav bar to let the  
