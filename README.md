@@ -170,7 +170,12 @@ using sql-like statements that Spring could interpret.</li>
 <li>Domain - Layer - The final layer between the Back-End and the Database. Here the data structure is defined,  
 this ensures that the data the business layer has been working with enters the db in the correct format. It then  
 passes the data into the db, via a jdbc connection that has been set up in the application properties file.</li>
-<h3>Testing</h3>  
+<h3>Testing</h3> 
+While user testing on the webpage or Postman can be done during the application development to make sure the correct  
+logic is executing, more formal means of testing need to be implemented that rigorously tests each method of code,  
+and how it integrates with other classes. This is where integration testing and unit testing come in. Both of these  
+testing methods were implemented to check the logic of the Back-End within the application, these will be expanded  
+upon seperately below.  
 <h4>Integration Testing</h4>  
 <h4>Unit Testing</h4>
 
