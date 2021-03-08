@@ -105,6 +105,12 @@ each League of Legends champion a user inputs. The application will make use of 
 queries that filter returned fields by Cost, Roles etc. thus allowing the end user to make an informed decision on  
 who they can play in a certain role, or which champions they do not own and might want to purchase in the future.  
 <h3>Workflow of Application</h3>  
+The functionality of each layer of the application will be discussed in further detail in the 'Front-End' and 'Back-End'  
+sections of this document. However, the basic workflow's and design plans of the application will be visualised here,  
+and elaborated on in pseudo code level of detail.  
+<br>
+This is the flow of data through the application from front to back:  
+<img src="https://user-images.githubusercontent.com/78487781/110296334-23862200-7fea-11eb-8237-10d465a4db6c.png">
 
 <h3>Front-End</h3>  
 The Front-End of the application was laid out with a webpage for each of the CRUD functions, with a nav bar to let the  
