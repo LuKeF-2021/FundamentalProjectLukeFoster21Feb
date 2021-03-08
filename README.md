@@ -111,6 +111,12 @@ and elaborated on in pseudo code level of detail.
 <br>
 This is the flow of data through the application from front to back:  
 <img src="https://user-images.githubusercontent.com/78487781/110296334-23862200-7fea-11eb-8237-10d465a4db6c.png">
+Now that the general concept of the application logic has been defined, high-level designs of the http requests can be  
+outlined, below is the logic each of the four request types follows:  
+POST:  
+<img src="https://user-images.githubusercontent.com/78487781/110298384-74971580-7fec-11eb-964c-18a24d7ad460.png">
+<br>
+GET:  
 
 <h3>Front-End</h3>  
 The Front-End of the application was laid out with a webpage for each of the CRUD functions, with a nav bar to let the  
