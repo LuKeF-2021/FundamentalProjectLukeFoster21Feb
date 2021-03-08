@@ -182,8 +182,23 @@ Controller class of the code. A mock Controller class was set up in the src/test
 tests executed and the test coverage achieved:  
 <img src="https://user-images.githubusercontent.com/78487781/110302089-c5a90880-7ff0-11eb-8b37-3c9de5a85f13.png">
 <img src="https://user-images.githubusercontent.com/78487781/110302162-d8234200-7ff0-11eb-8239-ff03bb7fb493.png">
-
-
+<br>
+Let's break down what the 'TestCreateChampion' test is doing in psuedo code:  
+<li>Perform a post request to the endpoint displayed in the picture. In the format of JSON.</li>
+<li>Map that JSON into a champion string of format 'newChampion' which is in more native SQL format.</li>
+<li>Expect a HTTP created status is returned, and expect that the 'newChampion' is equal to 'savedChampion'.</li>
+<br>
+This test passes if getters and setters are acting as intended, and if the auto increment function Spring is implementing  
+is functioning correctly.  
+<br>
+All methods on the controller class, including my custom queries, were tested for their integration within the application.  
+This made the test coverage for the application overall to be 79.9%, more importantly 87.3% in the controller and 94.1% in  
+the service layer.  
+<br>
+As most of the app logic is present on this class, it makes sense to do integration testing here as it interacts with the service  
+layer and most other classes. The reason the test coverage wasn't 100% here was due to the Spring annotations which are harder to  
+test, therefore as I didn't have the knowledge to test these, they were scoped out of my tests. As Spring is also a well maintained  
+and trusted external Framework that java developers use often, it is unlikely that any annotations are not working as intended anyway.
 <h4>Unit Testing</h4>
 
 <h3>Tools Used</h3>  
