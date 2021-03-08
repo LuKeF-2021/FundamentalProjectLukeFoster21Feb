@@ -141,8 +141,15 @@ mapping endpoints actually need to execute. It does this by communicating with t
 the JPA repo, this import contains commonly used CRUD methods, which was then extended in this project with  
 custom queries defined for project specific functionality. The service runs the logic contained within the  
 requested endpoint.</li>
-<li></li>
-<li></li>
+<li>Repository Layer - As eluded to in the point above, this layer interacts with the domain layer, which  
+defines the structure of the data that will be passed or retrieved from the database. The repository  
+is mainly just the standard jpa methods that are pre-defined for us, this contains the logic on how to find  
+a database entry by ID, or find all entries for example. After the logic executes it returns the requested  
+data back to the service. For functionality that wasn't defined in the import, those methods where created  
+using sql-like statements that Spring could interpret.</li>
+<li>Domain - Layer - The final layer between the Back-End and the Database. Here the data structure is defined,  
+this ensures that the data the business layer has been working with enters the db in the correct format. It then  
+passes the data into the db, via a jdbc connection that has been set up in the application properties file.</li>
 <h3>Testing</h3>  
 <h4>Integration Testing</h4>  
 <h4>Unit Testing</h4>
