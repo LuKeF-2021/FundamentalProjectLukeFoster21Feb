@@ -200,6 +200,20 @@ layer and most other classes. The reason the test coverage wasn't 100% here was 
 test, therefore as I didn't have the knowledge to test these, they were scoped out of my tests. As Spring is also a well maintained  
 and trusted external Framework that java developers use often, it is unlikely that any annotations are not working as intended anyway.
 <h4>Unit Testing</h4>
+Unit testing makes use of maven and mockito, these dependencies are imported into the pom.xml within the project.  
+mock bean annotations are used to mock what an actual bean is doing, but keeps it seperate so that the actual bean  
+is not impacted in any way. Below are some of the unit tests created, as well as test coverage achieved:  
+<img src="https://user-images.githubusercontent.com/78487781/110304894-05252400-7ff4-11eb-80c1-f55fbca0bbaa.png">
+<img src="https://user-images.githubusercontent.com/78487781/110304903-08201480-7ff4-11eb-884f-7e5a11f8d28f.png">
+<br>
+Let's break down what the 'testCreateChampion' unit test is doing here:  
+<li>when TEST_CHAMPION is saved, return TEST_SAVED_CHAMPION, which is the same data except the champion id is hard coded to be 1.</li>
+<li>check that these two champion objects are equal to each other i.e match.</li>
+<li>verify that the save method was only accessed one time.</li>
+<br>
+if the above is true, then this test passes.
+<br>
+
 
 <h3>Tools Used</h3>  
 Other tools used during the development of this application that haven't been discussed are as follows:  
